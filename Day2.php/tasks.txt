@@ -10,3 +10,22 @@
 
 
 ===> how to convert string to array
+
+
+
+=============================================
+code taks ==>
+1-Find Duplicate Elements
+Write a function findDuplicates($arr) that returns an array of duplicate elements from a given array.
+
+2-Write a function filterEven($arr) that filters out only even numbers from an array.
+
+3-Write a function findIntersection($arr1, $arr2) that returns the common elements between two arrays.
+
+ex:print_r(findIntersection([1, 2, 3], [2, 3, 4]));
+
+4-Write a function sumArray($arr) that calculates the sum of all elements in an array.
+
+5-Write a function sumOfDigits($num) that takes a number as input and returns the sum of its digits.
+
+6-Write a function countVowelsConsonants($str) that counts the number of vowels and consonants in a given string.
