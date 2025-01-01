@@ -1,0 +1,12 @@
+==> two associative array ==> how to merge them
+
+["name"=> "ayaat","age"=>24]
+["address"=> "menofia","job"=>"teaching assistant"]
+
+
+
+===> remove elemt from associative array
+==> add element to associative array
+
+
+===> how to convert string to array

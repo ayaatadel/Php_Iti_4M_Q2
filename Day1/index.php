@@ -273,19 +273,30 @@ echo "<br>************************** <br>";
 
 // for(;;);// infinite ;loop
 
-$arr=["ayaat",24,"nada",26,"mohammed",21,true,2.2];
-for($i=0;$i<sizeof($arr);$i++)
-{
-    if($arr[$i]=="test")
-    {
-        continue;
-    }
-    echo $arr[$i],"<br>";
-}
-echo "after loop <br>";
-exit;
-echo "hello <br>";
+// $arr=["ayaat",24,"nada",26,"mohammed",21,true,2.2];
+// for($i=0;$i<sizeof($arr);$i++)
+// {
+//     if($arr[$i]=="test")
+//     {
+//         continue;
+//     }
+//     echo $arr[$i],"<br>";
+// }
+// echo "after loop <br>";
+// exit;
+// echo "hello <br>";
 
+// $arr=[25,30,70,10];
+// $max=$arr[0];
+
+// for($i=0;$i<sizeof($arr);$i++)
+// {
+// if($max<=$arr[$i])
+// {
+//     $max=$arr[$i];
+// }
+// }
+// echo $max;
 
 
 ?>
