@@ -3,3 +3,23 @@
 
 $x=[1,2,3];
 $$x;
+
+
+
+//////////////////////
+Problem 1: Create a Bank Account Class
+Design a class BankAccount with the following features:
+
+Properties: accountNumber, accountHolder, balance.
+Methods:
+deposit($amount): Adds the specified amount to the balance.
+withdraw($amount): Deducts the specified amount from the balance if sufficient funds exist.
+getBalance(): Returns the current balance.
+Problem 2: Student Grade Management
+Create a class Student with the following:
+
+Properties: name, grades (an array).
+Methods:
+addGrade($grade): Adds a grade to the array.
+calculateAverage(): Calculates and returns the average of the grades.
+printDetails(): Prints the student's name and average grade.
