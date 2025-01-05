@@ -2,6 +2,7 @@
 // how how to prevent class to be inherit
 // how to prevent to take object from inherit
 
+// how to handle errors ==> setproerty ,getproperty , private
 
 ======================================> in lab
 ===> composition in php in oop ==> benefit
