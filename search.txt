@@ -1,0 +1,7 @@
+// how to prevent class to inherit proprity from another class
+// how how to prevent class to be inherit
+// how to prevent to take object from inherit
+
+
+======================================> in lab
+===> composition in php in oop ==> benefit
