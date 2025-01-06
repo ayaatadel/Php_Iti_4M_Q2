@@ -209,32 +209,32 @@ echo "<h1 style='text-align:center'>Day4</h1>";
 
 
 //============================= class variables ==> const , static
-class Count{
-    public static $count=0;
-    const PI=3.14;
-    function __construct()
-    {
-      self::$count++;  
-    }
-    function prinCount()
-    {
-        echo self::$count;
+// class Count{
+//     public static $count=0;
+//     const PI=3.14;
+//     function __construct()
+//     {
+//       self::$count++;  
+//     }
+//     function prinCount()
+//     {
+//         echo self::$count;
 
 
-    }
-    function setArea()
-    {
-       return self::PI*7*7;
-    }
-}
+//     }
+//     function setArea()
+//     {
+//        return self::PI*7*7;
+//     }
+// }
 
-$ct=new Count();
-$ct2=new Count();
-$ct3=new Count();
+// $ct=new Count();
+// $ct2=new Count();
+// $ct3=new Count();
 
-// $ct3->prinCount();
-// echo Count::$count;
-echo "<br>",Count::PI;
-echo "<br>",$ct3->setArea();
+// // $ct3->prinCount();
+// // echo Count::$count;
+// echo "<br>",Count::PI;
+// echo "<br>",$ct3->setArea();
 
  

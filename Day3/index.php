@@ -188,33 +188,32 @@ echo "<h1 style='text-align:center'> Day3 </h1>";
 
 
 
-/////////////////////////
-class Human{
-    //    public $name;
-    //    public $age;
-    //    public $address;
-    public $name,$age,$address,$email;
+// /////////////////////////
+// class Human{
+//     //    public $name;
+//     //    public $age;
+//     //    public $address;
+//     public $name,$age,$address,$email;
 
-    // consructor ==> function withOut return 
-    function __construct($userName="userName",$userAge="userAge",$userAddress="userAddress",$userEmail)
-    {
-        // this ==>Refers to the current object
-        $this->name=$userName;
-        $this->age=$userAge;
-        $this->address=$userAddress;
-        $this->email=$userEmail;
-    }
-    function printData()
-    {
-        echo $this->name,"<br>",
-        $this->age,"<br>",
-        $this->address,"<br>",
-        $this->email;
-    }
+//     // consructor ==> function withOut return 
+//     function __construct($userName="userName",$userAge="userAge",$userAddress="userAddress",$userEmail)
+//     {
+//         // this ==>Refers to the current object
+//         $this->name=$userName;
+//         $this->age=$userAge;
+//         $this->address=$userAddress;
+//         $this->email=$userEmail;
+//     }
+//     function printData()
+//     {
+//         echo $this->name,"<br>",
+//         $this->age,"<br>",
+//         $this->address,"<br>",
+//         $this->email;
+//     }
 
-}
+// }
 
-$obj=new Human("feby",22,"sheibin","ayaat@gmail.com");
-$obj2=new Human(userEmail:"nada@gmail.com",userAddress:"address Cairo");
-$obj2->printData();
-
+// $obj=new Human("feby",22,"sheibin","ayaat@gmail.com");
+// $obj2=new Human(userEmail:"nada@gmail.com",userAddress:"address Cairo");
+// $obj2->printData();

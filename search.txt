@@ -3,6 +3,15 @@
 // how to prevent to take object from inherit
 
 // how to handle errors ==> setproerty ,getproperty , private
+// 
 
-======================================> in lab
+======================================> in lab 
 ===> composition in php in oop ==> benefit
+
+====================================> day5
+
+===> name space in oop ==> benifit ==> code
+__set(),__get(),__call()  ==> withcode
+
+
+
