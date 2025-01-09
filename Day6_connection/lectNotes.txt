@@ -1,0 +1,26 @@
+
+$dbType = "mysql";
+$host = "localhost";
+$dbName = "mec_project_116";
+$userName = "root";
+$uerPsaaword = "";
+
+// host   dbname
+$connection = new PDO("$dbType:host=$host;dbname=$dbName", $userName, $uerPsaaword); // dbTpye
+// var_dump($connection);
+$passwordPattren="/^[0-9]{5,10}$/";
+$namePattren="/^[a-zA-Z ]{3,}$/";
+
+if(!preg_match($passwordPattren,$userPassword))
+{
+    {
+        header("location:./register.php?message=password must be more than 5 numbers and less than 10");
+        exit();  // prevent header execute code after it
+    } 
+}
+
+
+
+
+
+
